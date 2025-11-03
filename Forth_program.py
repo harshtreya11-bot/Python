@@ -51,6 +51,8 @@ print(Student_k_section["Subjects"]["MEFA"])
 print(Student_k_section.keys())#to return all values
 print(list(Student_k_section.keys())) #All keys in list value
 print(len(list(Student_k_section.keys()))) #length of total keys
-print(list(Student_k_section.items)) #return all the value of in the form of tuples
+print(Student_k_section.items()) #return all the value of in the form of tuples
+
+
 
 
