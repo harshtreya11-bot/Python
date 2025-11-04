@@ -28,9 +28,9 @@ def type_line(line):
 
 def print_lyrius_with_delay():  
     start_time = time.time()
-    for timestamp, line in lyrics_with_tim
-    ng:
-        wait_time = start_time + timestamp - time.time()
+    for timestamp, line in lyrics_with_timng
+    ng :
+    wait_time = start_time + timestamp - time.time()
     if wait_time > 0:
         time.sleep(wait_time)
         type_line(line)
